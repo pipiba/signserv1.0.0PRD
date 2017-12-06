@@ -1,0 +1,345 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+    
+  用例表 - 数字证书系统v1.0.0_PRD
+  
+  </title>
+ <meta name="description" content="">
+ <link href="atom.xml" rel="alternate" title="数字证书系统v1.0.0_PRD" type="application/atom+xml">
+    <link rel="stylesheet" href="asset/css/foundation.min.css" />
+    <link rel="stylesheet" href="asset/css/docs.css" />
+
+    <script src="asset/js/vendor/modernizr.js"></script>
+    <script src="asset/js/vendor/jquery.js"></script>
+    <script src="asset/highlightjs/highlight.pack.js"></script>
+    <link href="asset/highlightjs/styles/github.css" media="screen, projection" rel="stylesheet" type="text/css">
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+  </head>
+  <body class="antialiased hide-extras">
+    
+    <div class="marketing off-canvas-wrap" data-offcanvas>
+      <div class="inner-wrap">
+
+
+<nav class="top-bar docs-bar hide-for-small" data-topbar>
+
+<div id="header">
+    <h1><a href="index.html">数字证书系统v1.0.0_PRD</a></h1>
+</div>
+
+</nav>
+        <nav class="tab-bar show-for-small">
+  <a href="javascript:void(0)" class="left-off-canvas-toggle menu-icon">
+    <span> &nbsp; 数字证书系统v1.0.0_PRD</span>
+  </a>
+</nav>
+
+<aside class="left-off-canvas-menu">
+      <ul class="off-canvas-list">
+      <li><a href="index.html">Home</a></li>
+      
+        <li class="divider"></li>
+        <li><label>修订记录</label></li>
+
+          
+            <li><a title="修订记录" href="15118627000860.html">修订记录</a></li>
+          
+
+      
+        <li class="divider"></li>
+        <li><label>概述</label></li>
+
+          
+            <li><a title="背景目的" href="15118627439327.html">背景目的</a></li>
+          
+            <li><a title="图集" href="15118628011647.html">图集</a></li>
+          
+            <li><a title="FeatureList" href="15119558543458.html">FeatureList</a></li>
+          
+            <li><a title="非功能性需求" href="15120285928561.html">非功能性需求</a></li>
+          
+            <li><a title="名词解释" href="15120259442847.html">名词解释</a></li>
+          
+
+      
+        <li class="divider"></li>
+        <li><label>详述-证书</label></li>
+
+          
+            <li><a title="创建" href="15120336223204.html">创建</a></li>
+          
+            <li><a title="存储与更新" href="15120428326407.html">存储与更新</a></li>
+          
+
+      
+        <li class="divider"></li>
+        <li><label>详述-印章</label></li>
+
+          
+            <li><a title="印章创建与存储" href="15121040433832.html">印章创建与存储</a></li>
+          
+            <li><a title="印章维护" href="15121041306843.html">印章维护</a></li>
+          
+
+      
+        <li class="divider"></li>
+        <li><label>详述-数字签名</label></li>
+
+          
+            <li><a title="用例表" href="15123851155744.html">用例表</a></li>
+          
+
+      
+      </ul>
+    </aside>
+
+<a class="exit-off-canvas" href="#"></a>
+
+        <section id="main-content" role="main" class="scroll-container">
+
+          <div class="row">
+            <div class="large-3 medium-3 columns">
+              <div class="hide-for-small">
+                <div class="sidebar">
+                <nav>
+                  <ul id="side-nav" class="side-nav">
+
+                    
+                      <li class="side-title"><span>修订记录</span></li>
+                        
+                          <li><a title="修订记录" href="15118627000860.html">修订记录</a></li>
+                        
+
+                    
+                      <li class="side-title"><span>概述</span></li>
+                        
+                          <li><a title="背景目的" href="15118627439327.html">背景目的</a></li>
+                        
+                          <li><a title="图集" href="15118628011647.html">图集</a></li>
+                        
+                          <li><a title="FeatureList" href="15119558543458.html">FeatureList</a></li>
+                        
+                          <li><a title="非功能性需求" href="15120285928561.html">非功能性需求</a></li>
+                        
+                          <li><a title="名词解释" href="15120259442847.html">名词解释</a></li>
+                        
+
+                    
+                      <li class="side-title"><span>详述-证书</span></li>
+                        
+                          <li><a title="创建" href="15120336223204.html">创建</a></li>
+                        
+                          <li><a title="存储与更新" href="15120428326407.html">存储与更新</a></li>
+                        
+
+                    
+                      <li class="side-title"><span>详述-印章</span></li>
+                        
+                          <li><a title="印章创建与存储" href="15121040433832.html">印章创建与存储</a></li>
+                        
+                          <li><a title="印章维护" href="15121041306843.html">印章维护</a></li>
+                        
+
+                    
+                      <li class="side-title"><span>详述-数字签名</span></li>
+                        
+                          <li><a title="用例表" href="15123851155744.html">用例表</a></li>
+                        
+
+                    
+                  </ul>
+                </nav>
+                </div>
+              </div>
+            </div>
+            <div class="large-9 medium-9 columns">
+
+ <div class="markdown-body">
+<h1>用例表</h1>
+
+<table>
+<thead>
+<tr>
+<th>用例名称</th>
+<th>执行数字签名</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>执行者</td>
+<td>数字证书系统</td>
+</tr>
+<tr>
+<td>前置条件</td>
+<td>存在待签署文件、印章与落章具体信息存在、印章有效期内</td>
+</tr>
+<tr>
+<td>基础流程</td>
+<td>1.数字证书系统接收到数字签署请求2.接收请求与数据后，通过传输的印章ID查询系统中的印章数据3.校验印章关联的证书状态4.用待签署文件与印章进行数字签名5.返回结果与相关结果文件数据</td>
+</tr>
+<tr>
+<td>接收状态</td>
+<td>完成文档数据的数字签名并返回请求源</td>
+</tr>
+<tr>
+<td>可选流程</td>
+<td>-</td>
+</tr>
+<tr>
+<td>异常流程</td>
+<td>4.证书过期，则走证书续期或重新申请流程5.通知外部请求原印章过期6.接收印模文件7.将续期后的证书（或重新重新的证书）与印模文件进行创建新的印章8.用待签署文件与印章进行数字签名9.返回结果与相关结果文件数据</td>
+</tr>
+<tr>
+<td>说明</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="toc_0">数字签名接口数字证书系统</h2>
+
+<p>请求content</p>
+
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>内容</th>
+<th>必须</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>sealcode</td>
+<td>印章ID</td>
+<td>y</td>
+</tr>
+<tr>
+<td>signData</td>
+<td>json格式的签署数据包,格式详见“signData字段涉及的json格式说明”</td>
+<td>y</td>
+</tr>
+</tbody>
+</table>
+
+<p>返回content</p>
+
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>内容</th>
+<th>必须</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>msg</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>code</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+<blockquote>
+<p>signData字段涉及的json格式说明</p>
+
+<pre><code class="language-json">{&quot;signData&quot;:[
+  {&quot;signpositionType&quot;:&quot;印模的定位方式&quot;,&quot;positionContent&quot;:&quot;对应方式的具体内容&quot;},
+  {&quot;docFile&quot;:&quot;需要签署的文件数据内容&quot;}
+  ]
+}
+</code></pre>
+</blockquote>
+
+<h2 id="toc_1">数字签名活动图</h2>
+
+<p><img src="http://p0ir6qnjl.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-12-06%20%E4%B8%8B%E5%8D%885.08.49.png" alt="屏幕快照 2017-12-06 下午5.08.49"/></p>
+
+
+</div>
+
+<br /><br />
+<hr />
+
+<div class="row clearfix">
+  <div class="large-6 columns">
+	<div class="text-left" style="padding:15px 0px;">
+		
+	        <a href="15118627000860.html"  title="Previous Post: 修订记录">&laquo; 修订记录</a>
+	    
+	</div>
+  </div>
+  <div class="large-6 columns">
+	<div class="text-right" style="padding:15px 0px;">
+		
+	        <a href="15118627439327.html" 
+	        title="Next Post: 背景目的">背景目的 &raquo;</a>
+	    
+	</div>
+  </div>
+</div>
+
+<div class="row">
+<div style="padding:0px 0.93em;" class="share-comments">
+
+</div>
+</div>
+<script type="text/javascript">
+	$(function(){
+		var currentURL = '15123851155744.html';
+		$('#side-nav a').each(function(){
+			if($(this).attr('href') == currentURL){
+				$(this).parent().addClass('active');
+			}
+		});
+	});
+</script>  
+</div></div>
+
+
+<div class="page-bottom">
+  <div class="row">
+  <hr />
+  <div class="small-9 columns">
+  <p class="copyright">Copyright &copy; 2015
+Powered by <a target="_blank" href="http://www.mweb.im">MWeb</a>,&nbsp; 
+Theme used <a target="_blank" href="http://github.com">GitHub CSS</a>.</p>
+  </div>
+  <div class="small-3 columns">
+  <p class="copyright text-right"><a href="#header">TOP</a></p>
+  </div>
+   
+  </div>
+</div>
+
+        </section>
+      </div>
+    </div>
+    
+    
+    <script src="asset/js/foundation.min.js"></script>
+    <script src="asset/js/foundation/foundation.offcanvas.js"></script>
+    <script>
+      $(document).foundation();
+
+     
+    </script>
+    <script src="asset/chart/all-min.js"></script><script type="text/javascript">$(function(){    var mwebii=0;    var mwebChartEleId = 'mweb-chart-ele-';    $('pre>code').each(function(){        mwebii++;        var eleiid = mwebChartEleId+mwebii;        if($(this).hasClass('language-sequence')){            var ele = $(this).addClass('nohighlight').parent();            $('<div id="'+eleiid+'"></div>').insertAfter(ele);            ele.hide();            var diagram = Diagram.parse($(this).text());            diagram.drawSVG(eleiid,{theme: 'simple'});        }else if($(this).hasClass('language-flow')){            var ele = $(this).addClass('nohighlight').parent();            $('<div id="'+eleiid+'"></div>').insertAfter(ele);            ele.hide();            var diagram = flowchart.parse($(this).text());            diagram.drawSVG(eleiid);        }    });});</script>
+
+
+  </body>
+</html>
